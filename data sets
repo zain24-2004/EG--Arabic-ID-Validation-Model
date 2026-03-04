@@ -1,0 +1,25 @@
+# id > 2023-12-16 1:14pm
+https://universe.roboflow.com/asdco/id-xbtly
+
+Provided by a Roboflow user
+License: CC BY 4.0
+  
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Address', 'Birth-Date', 'ID-Number', 'Name', 'Personal-ID']
+
+roboflow:
+  workspace: asdco
+  project: id-xbtly
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/asdco/id-xbtly/dataset/1
+
+"""  from roboflow import Roboflow
+rf = Roboflow(api_key="jUkpFD9LygzAwDds41i9")
+project = rf.workspace("asdco").project("id-xbtly")
+version = project.version(1)
+dataset = version.download("yolov8")  """
